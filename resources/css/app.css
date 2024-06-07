@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000000;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+/* Custom Styles for Navbar */
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0.5em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Ensure the Login Form is Responsive */
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+
+.form-group {
+    margin-bottom: 1.5em;
+}
+
+.btn-primary {
+    background-color: #4CAF50;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #45a049;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.content {
+    padding: 2em;
+    text-align: center;
+}
+
+.pet-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pet {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 1em;
+    padding: 1em;
+    width: 200px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    margin: 0.5em 0;
+}
+
+form input, form textarea {
+    margin: 0.5em 0;
+    padding: 0.5em;
+    width: 80%;
+    max-width: 400px;
+}
+
+form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.5em 2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
